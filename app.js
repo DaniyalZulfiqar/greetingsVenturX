@@ -14,7 +14,6 @@ app.use(multer().none());
 app.get('/greetings/:name?', async function(req, res) {
   try {
     let name = req.params['name'];
-    console.log(name === '');
     if (!name) {
       const code = 400;
       res.type('text').status(code);
