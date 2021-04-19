@@ -1,0 +1,23 @@
+{
+  "name": "greetingserver",
+  "version": "1.0.0",
+  "description": "takes name and responds with greeting text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/DaniyalZulfiqar.git"
+  },
+  "author": "Daniyal Zulfiqar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/DaniyalZulfiqar/issues"
+  },
+  "homepage": "https://github.com/github.com/DaniyalZulfiqar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
